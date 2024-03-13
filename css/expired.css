@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.expired {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/change_bg.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  max-width: 236px;
+  max-height: 75px;
+}
+.logo img {
+  width: 70%;
+  height: auto;
+}
+
+.expired-inner {
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+  max-height: inherit;
+}
+
+.prod-title {
+  position: absolute;
+  top: 0;
+  max-width: 960px;
+  max-height: 1600px;
+}
+.prod-title img {
+  width: 100%;
+  height: auto;
+}
+
+.expired-title {
+  position: relative;
+  max-width: 899px;
+  max-height: 124px;
+  padding-top: 90%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.expired-title img {
+  width: 100%;
+  height: auto;
+}
+
+.expired-btn {
+  position: relative;
+  max-width: 400px;
+  max-height: 51px;
+  padding-top: 17%;
+  padding-left: 22%;
+  padding-right: 22%;
+}
+.expired-btn img {
+  width: 100%;
+  height: auto;
+}

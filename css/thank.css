@@ -1,0 +1,270 @@
+body {
+  overflow-x: hidden;
+}
+
+.thank {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  background: url("../img/thank_bg.png") center top no-repeat;
+  background-size: cover;
+
+}
+
+.thank-inner {
+  position: relative;
+  margin: 0 auto;
+  
+  max-width: 1200px;
+  height: inherit;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-width: 236px;
+  max-height: 75px;
+  z-index: 10;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.main ul {
+  font-size:0;
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  width:36.75%;
+  max-width:400px; 
+}
+
+.main ul li {
+  display: inline-block;
+  width: 50%;
+  cursor: pointer;
+
+}
+.fb-btn{
+  
+}
+
+.home-btn {
+  
+}
+
+.prod {
+  position: absolute;
+  top:50px;
+  max-width:1200px;
+}
+
+.title {
+  position: absolute;
+  bottom: 270px;
+  max-width: 1200px;
+}
+.title img {
+  width: 100%;
+  height: auto;
+}
+
+
+.main {
+  width:100%;
+  max-width:1200px;
+  position: relative;
+}
+
+
+
+
+.resend-bg {
+  text-align:center;
+  position: absolute;
+  max-width: 1200px;
+  top:820px;
+  font-size:0;
+}
+.resend-bg img {
+  width: 100%;
+  height: auto;
+}
+
+.resend-bg span {
+  display:inline-block;
+  text-align:center;
+  width:50%;
+  max-width: 466px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.resend-bg a {
+  display: inline-block;
+  cursor: pointer;
+  width:20%;
+  max-width: 178px;
+}
+
+.resend-btn {
+  position: absolute;
+  top: 54%;
+  left: 12%;
+  width:36.75%;
+  max-width:441px; 
+  cursor: pointer;
+
+
+}
+.resend-btn a {
+  display: block;
+  vertical-align: middle;
+  /*line-height: 51px;
+  color:#fff;*/
+  text-decoration: none;
+}
+
+.resend-btn img {
+  width: 100%;
+  height: auto;
+}
+
+.search-point {
+  margin-left: 10%;
+  margin-top:2%;
+  display: inline-block;
+  width:18.3%;
+}
+
+.fb-share {
+  display: inline-block;
+  width:18.3%;
+  cursor:pointer;
+}
+
+.thank img {
+  width:100%;
+}
+
+.back-index {
+  position: relative;
+  max-width: 95px;
+  max-height: 95px;
+  padding-top: 2%;
+  padding-left: 24%;
+}
+.back-index img {
+  width: 100%;
+  height: auto;
+}
+
+.m-thank-white, .m-thank-info-title, .m-thank-info-words {
+  display: none;
+}
+
+.banner{
+  text-align: center;
+  width:100%;
+
+  position: absolute;
+  bottom:50px;
+}
+
+.dt {
+  display:block;
+}
+.mb {
+  display:none;
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .dt {display:none;}
+  .mb {display:block;}
+
+  html, body {
+    height: 100%;
+  }
+  
+  .main ul {
+      font-size: 0;
+      position: absolute;
+      top: 83%;
+      left: 18%;
+      width: 65%;
+      max-width: 960px;
+  }
+
+  .fb-btn, .home-btn {
+    left: 10px;
+  }
+
+  .thank {
+    background: none;
+    height:auto;
+  }
+
+  .logo img {
+    width: 70%;
+  }
+
+  .resend-bg {
+    position:relative;
+    top:0;
+    margin-bottom:7%;
+  }
+
+  .resend-btn {
+     width: 65%;
+      max-width: 960px;
+      left: 17.5%;
+      top: 72%;
+  }
+
+  .search-point ,.fb-share {
+    width:35%;
+
+  }
+   .search-point {
+     margin-left:15%;
+   }
+
+  .back-index {
+    margin: 3% auto;
+    text-align: center;
+    max-width: 95px;
+    max-height: 95px;
+    padding-left: 0;
+  }
+  .banner{
+    position:relative;
+    bottom:0;
+    margin-top:10%;
+  }
+  .dt {
+    display:none;
+  }
+  .mb {
+    display:block;
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .m-thank-info-title {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .m-thank-info-title {
+    padding-top: 101px;
+  }
+
+  .back-index {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}

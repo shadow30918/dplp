@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html,body{
+	height: 100%;
+}
+
+
+body{
+	overflow-x: hidden;
+}
+
+.change{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('../img/change_bg.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.logo{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	max-width: 236px;
+	max-height: 75px;
+
+	img{
+		width: 70%;
+		height: auto;
+	}
+}
+
+.change-inner{
+	position: relative;
+	margin: 0 auto;
+	max-width: 960px;
+	max-height: inherit;
+}
+
+.prod-title{
+	position: absolute;
+	top: 0;
+	max-width: 960px;
+	max-height: 1600px;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.change-title{
+	position: relative;
+	margin: 0 auto;
+	max-width: 899px;
+	max-height: 124px;
+	padding-top: 77%;
+	padding-left: 4%;
+	padding-right: 4%;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.change-info{
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 8%;
+
+	div{
+		padding-left: 18%;
+		margin-bottom: 6%;
+	}
+
+	span{
+		color: #594a41;
+		font-family: 'Noto Sans TC', sans-serif;
+	}
+
+	i{
+		color: #594a41;
+		vertical-align: middle;
+	}
+}
+
+.change-name-title, .change-phone-title, .change-shop-title{
+	display: inline-block;
+}
+
+.change-down{
+	position: relative;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.change-word{
+	position: relative;
+	max-width: 387px;
+	max-height: 105px;
+	padding-left: 7%;
+	padding-right: 10%;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.change-btn{
+	position: relative;
+	max-width: 197px;
+	max-height: 226px;
+	padding-right: 11%;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.change-ok-btn{
+	position: relative;
+	display: none;
+	max-width: 197px;
+	max-height: 226px;
+	padding-right: 11%;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+}

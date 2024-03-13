@@ -1,0 +1,48 @@
+.move {
+    animation-duration: 1s;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-name: move;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+	position:relative;
+}
+
+@-webkit-keyframes move {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -10px;
+    }
+    50% {
+        top: 0px;
+    }
+    75% {
+        top: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -10px;
+    }
+    50% {
+        top: 0px;
+    }
+    75% {
+        top: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+}
